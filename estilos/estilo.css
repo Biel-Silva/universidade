@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin:auto;
+    padding-top:1em;
+}
+
+header #container div ul{
+    list-style-type: none;
+    margin:auto;
+    text-align: center;
+}
+
+header #container ul li{
+    padding:10px;
+    display: inline-block;
+    margin-right:3em;
+}
+
+header #container ul li a.real-link{
+    float: right;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bolder;
+    color:rgb(47, 33, 172);
+    padding:5px;
+}
+
+header #container ul li a.real-link:hover{
+    border-bottom:1.5px solid rgb(64, 79, 219);
+}
+
