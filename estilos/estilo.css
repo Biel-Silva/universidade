@@ -9,9 +9,14 @@
 header{
     margin:auto;
     padding-top:1em;
+    background-color: aliceblue;
 }
 
-header #container div ul{
+header #container{
+    width:90%;
+}
+
+header #container ul{
     list-style-type: none;
     margin:auto;
     text-align: center;
@@ -33,6 +38,31 @@ header #container ul li a.real-link{
 }
 
 header #container ul li a.real-link:hover{
-    border-bottom:1.5px solid rgb(64, 79, 219);
+    border-bottom:1.5px solid rgb(104, 119, 255);
+}
+
+header #container form{
+    display: inline-block;
+    float: right;
+    font-weight: bolder;
+}
+
+header #container #input{
+    margin-right:0;
+    font-size: 1.3em;
+}
+
+header #container form input[type="search"]{
+    margin-right: 0;
+    padding:10px;
+    border-radius: 10px;
+    border-color: cornflowerblue;
+}
+
+header #container form input[type="search"]{
+    margin-right: 0;
+    padding:10px;
+    border-radius: 10px;
+    border-color: cornflowerblue;
 }
 
