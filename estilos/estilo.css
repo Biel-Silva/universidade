@@ -12,23 +12,21 @@ header{
     background-color: aliceblue;
 }
 
-header #container{
-    width:90%;
-}
-
-header #container ul{
+header ul{
     list-style-type: none;
     margin:auto;
     text-align: center;
+    width:100%;
+    min-width:70%;
 }
 
-header #container ul li{
+header ul li{
     padding:10px;
     display: inline-block;
     margin-right:3em;
 }
 
-header #container ul li a.real-link{
+header ul li a.real-link{
     float: right;
     text-decoration: none;
     font-size: 1.3em;
@@ -37,32 +35,30 @@ header #container ul li a.real-link{
     padding:5px;
 }
 
-header #container ul li a.real-link:hover{
+header ul li a.real-link:hover{
     border-bottom:1.5px solid rgb(104, 119, 255);
 }
 
-header #container form{
+header form{
     display: inline-block;
+}
+
+header form input#iproc{
     float: right;
-    font-weight: bolder;
-}
-
-header #container #input{
-    margin-right:0;
-    font-size: 1.3em;
-}
-
-header #container form input[type="search"]{
     margin-right: 0;
-    padding:10px;
+    padding:20px;
     border-radius: 10px;
     border-color: cornflowerblue;
+    width: 10%;
+    min-width: 2%;
+    max-width: 12%;
+    clear: both;
 }
 
-header #container form input[type="search"]{
-    margin-right: 0;
-    padding:10px;
-    border-radius: 10px;
-    border-color: cornflowerblue;
-}
+/*Medias*/
 
+@media (max-width:965px){
+    form{
+        display: none !important;
+    }
+}
