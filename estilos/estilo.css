@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+::-webkit-scrollbar{
+    width:0;
+}
+
 *{
     margin:0;
     padding:0;
@@ -10,16 +14,29 @@
     clear: both;
 }
 
+p{
+    font-size: 1.1em;
+}
+
+.parallax{
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.texto{
+    background-color: #f0f8ff;
+}
+
 header{
     margin:auto;
     padding:2em;
-    background-color: aliceblue;
+    background-color: #f0f8ff;
 }
 
 header ul{
     list-style-type: none;
     margin:auto;
-    width:70%;
+    width:80%;
     float: left;
 }
 
@@ -52,10 +69,43 @@ header input#iproc{
     min-width: 17%;
 }
 
+main article#um{
+    background-image:url('../imagens/muie_com_parede_azul.jpg');
+    height: 40em;
+    position: relative;
+}
+
+main article#um div{
+    padding:20px;
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 1.3em;
+    color: #fff;
+    line-height: 2em;
+    text-align: center;
+}
+
+main article.texto img{
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
 /*Medias*/
 
 @media (max-width:1108px){
     input[type="search"]{
         display: none !important;
+    }
+
+    header ul{
+        width: 100%;
+
+    }
+
+    header ul li{
+        margin-right:1em;
     }
 }
