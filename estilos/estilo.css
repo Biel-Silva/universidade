@@ -18,9 +18,18 @@ p{
     font-size: 1.1em;
 }
 
+article{
+    padding:30px;
+}
+
 .parallax{
     background-attachment: scroll;
     background-size: cover;
+}
+
+.beneficios{
+    margin-bottom: 20px;
+    position: relative;
 }
 
 .texto{
@@ -87,10 +96,15 @@ main article#um div{
     text-align: center;
 }
 
-main article.texto img{
-    position: relative;
-    top: 20%;
-    left: 5%;
+
+main article.texto{
+    padding:30px;
+}
+
+main article.texto div h2{
+    position:absolute;
+    top: 30%;
+    left:6%;
 }
 
 /*Medias*/
