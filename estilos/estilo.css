@@ -24,7 +24,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1,h2,p,a{
+#cursos h1, #cursos h2, #cursos p, #cursos a{
     color:#2f21ac;
 }
 
@@ -34,6 +34,10 @@ h1,h2,p,a{
 
 p{
     font-size: 1.1em;
+}
+
+a{
+    text-decoration: none;
 }
 
 article{
@@ -64,7 +68,12 @@ article{
     list-style-type: disclosure-open;
     padding:10px !important;
     margin-left:11%;
-    
+}
+
+.l-c-botoes{
+    margin-left:3%;
+    font-weight: bold;
+    color: #2f21ac;
 }
 
 header{
@@ -87,7 +96,6 @@ header ul#menu li{
 
 header ul#menu li a.real-link{
     float: right;
-    text-decoration: none;
     font-size: 1.3em;
     font-weight: bolder;
     color:#2f21ac;
@@ -100,6 +108,7 @@ header ul#menu li a.real-link:hover{
 
 header input#iproc{
     float: right;
+    margin-bottom:1%;
     margin-top: 14px;
     padding:10px;
     border-radius: 10px;
@@ -203,6 +212,9 @@ footer{
     font-size: 1.5em;
     color:#2c1ef5;
 }
+/*cursos*/
+
+/*Configurações do "Contatos"*/
 
 /*Medias*/
 
