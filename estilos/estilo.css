@@ -24,6 +24,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1,h2,p,a{
+    color:#2f21ac;
+}
+
 .clear{
     clear: both;
 }
@@ -46,9 +50,21 @@ article{
     position: relative;
 }
 
+.a-container{
+    display: inline-block;
+    padding:0px 0px 0px 20px !important;
+}
+
 .texto{
     background-color: #f0f8ff;
     height: 38em;
+}
+
+.list{
+    list-style-type: disclosure-open;
+    padding:10px !important;
+    margin-left:11%;
+    
 }
 
 header{
@@ -57,20 +73,19 @@ header{
     background-color: #f0f8ff;
 }
 
-header ul{
-    list-style-type: none;
+header ul#menu{
     margin:auto;
     width:80%;
     float: left;
 }
 
-header ul li{
+header ul#menu li{
     padding:10px;
     display: inline-block;
     margin-right:3em;
 }
 
-header ul li a.real-link{
+header ul#menu li a.real-link{
     float: right;
     text-decoration: none;
     font-size: 1.3em;
@@ -79,7 +94,7 @@ header ul li a.real-link{
     padding:5px;
 }
 
-header ul li a.real-link:hover{
+header ul#menu li a.real-link:hover{
     border-bottom:1.5px solid #6877ff;
 }
 
@@ -173,10 +188,21 @@ footer{
     margin-left:20px;
 }
 
-#cursos #list{
-    list-style-type: disc;
+#cursos .list li{
+    margin-bottom:10px;
+    font-size: 1.3em;
+    color:#110299;
 }
 
+#cursos .list ::marker{
+    font-size: 15px;
+    color: #0b53da;
+}
+
+#cursos  #lembrete{
+    font-size: 1.5em;
+    color:#2c1ef5;
+}
 
 /*Medias*/
 
