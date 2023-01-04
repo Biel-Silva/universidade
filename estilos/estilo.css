@@ -163,6 +163,20 @@ footer{
     color:#0b006e;
 }
 
+/*Configurações do "cursos"*/
+.curs_titulo{
+    margin:40px 0px 10px 20px;
+}
+
+#cursos #titulo{
+    margin-top:40px;
+    margin-left:20px;
+}
+
+#cursos #list{
+    list-style-type: disc;
+}
+
 
 /*Medias*/
 
