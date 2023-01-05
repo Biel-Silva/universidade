@@ -24,7 +24,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#cursos h1, #cursos h2, #cursos p, #cursos a{
+#cursos h1, #cursos h2, #cursos p, #cursos a, #contato h1, #contato h2, #contato p, #contato a{
     color:#2f21ac;
 }
 
@@ -33,7 +33,7 @@
 }
 
 p{
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 a{
@@ -57,6 +57,11 @@ article{
 .a-container{
     display: inline-block;
     padding:0px 0px 0px 20px !important;
+}
+
+.titulo{
+    margin-top:40px;
+    margin-left:20px;
 }
 
 .texto{
@@ -192,10 +197,6 @@ footer{
     margin:40px 0px 10px 20px;
 }
 
-#cursos #titulo{
-    margin-top:40px;
-    margin-left:20px;
-}
 
 #cursos .list li{
     margin-bottom:10px;
@@ -215,6 +216,41 @@ footer{
 /*cursos*/
 
 /*Configurações do "Contatos"*/
+#contato p{
+    margin:10px;
+}
+
+#contato fieldset{
+    border:0px;
+    margin-top:4%;
+    margin-left:10px;
+}
+
+#contato fieldset label{
+    font-size: 1.2em;
+}
+
+#contato fieldset input#iassunto, input#iemail{
+    margin-bottom:3% !important;
+}
+
+#contato fieldset label#ioqi{
+    margin-top:20px;
+}
+
+#contato fieldset input{
+    padding:5px;
+    margin:6px;
+    width:200px;
+    border:1px solid #000;
+}
+
+#contato fieldset textarea{
+    width: 402px;
+    height: 204px;
+    margin-bottom:10%;
+}
+
 
 /*Medias*/
 
