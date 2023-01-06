@@ -254,7 +254,7 @@ footer{
 
 /*Medias*/
 
-@media (max-width:1108px){
+@media (max-width:1008px){
     input[type="search"]{
         display: none !important;
     }
@@ -266,5 +266,35 @@ footer{
 
     header ul li{
         margin-right:1em;
+    }
+}
+
+@media (max-width:990px){
+    header #menu li{
+        margin-right:0em !important;
+        min-width: 40px;
+    }
+
+    main article.texto div h2{
+        left:8%;
+    }
+
+    header ul li a.real-link{
+        font-size: 1em !important;
+        margin-right:1em !important;
+    }
+}
+
+@media (max-width:720px){
+    main .parallax#um{
+        background-image: none;
+        background-color: #1144a1;
+    }
+
+    main .parallax#um div{
+        position:static;
+        margin:auto;
+        display: block;
+        margin-top:50%;
     }
 }
