@@ -325,9 +325,18 @@ footer{
         display: block;
         margin-top:50%;
     }
+
+    main .texto .beneficios h2{
+        font-size: 1.3em;
+        margin-left:2em;
+        top:10% !important;
+    }
 }
 
 @media (max-width:690px){
+    #new-log{
+        display: block;
+    }
     main article#um, main article#dois{
         height: 30em !important;
     }
@@ -342,7 +351,7 @@ footer{
 
     main article#dois #link{
         top: 70% !important;
-        left: 31% !important; 
+        left: 33% !important; 
     }
 
     main article#dois div#na{
@@ -388,5 +397,45 @@ footer{
     header nav a{
         padding:0px 5px;
         margin-right:1.1em;
+    }
+}
+
+@media (max-width:430px){
+    main .texto{
+        height: 36em;
+        padding-top: 38px !important;
+        padding-bottom:0px !important;
+    }
+
+    main .parallax #link{
+        left:21% !important;
+    }
+
+    textarea#ioq{
+        width: 317px !important;
+        height: 173px !important;
+        margin-bottom: 23% !important;
+    } 
+}
+
+@media (max-width:360px){
+    #book2, #compass{
+        width: 40px;
+    }
+
+    
+
+    main .texto .beneficios img{
+        width:60px
+    }
+
+    main .texto .beneficios h2{
+        top:10% !important;
+        left:20%;
+        font-size: 1.1em;
+    }
+
+    main article#dois #link {
+        left: 20% !important;
     }
 }
