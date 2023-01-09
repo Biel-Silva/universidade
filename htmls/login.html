@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brateon - Login</title>
+
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+
+<body>
+    <header>
+            <ul id="menu">
+                <li id="logo"><a href="../index.html"><img src="../imagens/University (4).png" alt="" id="logo"></a></li>
+                <li><a href="../index.html" class="real-link">Home</a></li>
+                <li><a href="cursos.html" class="real-link">Cursos</a></li>
+                <li><a href="contato.html" class="real-link">Contato</a></li>
+            </ul>
+
+            <nav id="menu_cel">
+                <a href="" class="real-link">Home</a>
+                <a href="htmls/cursos.html" class="real-link">Cursos</a>
+                <a href="htmls/contato.html" class="real-link">Contato</a>
+            </nav>
+
+            <form action="cadastro.php" method="get" style="display: inline-block; float: right;">
+                <input type="search" name="proc" id="iproc"><div class="clear"></div>
+                <a href="login.html" class="l-c-botoes">Login</a> <a href="cad.html" class="l-c-botoes">Cadastro</a>
+            </form>
+
+            <div class="clear"></div>
+    </header>
+
+    <main id="login-main">
+        <article id="form-log">
+            <fieldset>
+                <legend>Login</legend>
+                <form action="../cadastro.php" method="post">
+                    <label for="iusuario">Usuário ou email:</label>
+                    <input type="text" id="iusuario" required>
+<br>
+                    <label for="isenha">Senha:</label>
+                    <input type="password" required>
+                </form>
+            </fieldset>
+        </article>
+    </main>
+
+    <div class="clear"></div>
+    <footer>
+        <p>&copy; 2023 Universidade Brateon. Todos os direitos reservados</p>
+        <p style="margin-top:10px; display: none;" id="cad"><a href="login.html">Login</a> | <a href="cad.html">Cadastro</a></p>
+    </footer>
+</body>
+</html>

@@ -18,6 +18,10 @@
     width:0;
 }
 
+body, html{
+    height: 100%;
+}
+
 *{
     margin:0;
     padding:0;
@@ -199,7 +203,7 @@ div#link a{
 }
 
 footer{
-    padding:20px;
+    padding:15px;
     text-align: center;
     background-color:#f0f3ff;
     color:#0b006e;
@@ -261,6 +265,18 @@ footer{
 #contato fieldset textarea{
     width: 402px;
     height: 204px;
+    margin-bottom:10%;
+}
+
+/*Fim da aba "contato"*/
+
+/*Inicio da aba "login"*/
+#login-main #form-log{
+    background-image:url('../imagens/grey-marble-column-details-on-building.jpg');
+    background-size: cover;
+    height:30em;
+    width:80%;
+    margin:auto;
     margin-bottom:10%;
 }
 
@@ -444,5 +460,6 @@ footer{
 
     footer p#cad{
         margin-top:5px !important;
+        display: block !important;
     }
 }
