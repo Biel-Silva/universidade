@@ -81,6 +81,15 @@ article{
     color: #2f21ac;
 }
 
+#menu_cel{
+    color: #0b006e;
+    display: none;
+}
+
+#menu_cel a:hover{
+    border-bottom: 1px solid #0b006e;
+}
+
 header{
     padding:1em;
     background-color: #f0f8ff;
@@ -263,9 +272,6 @@ footer{
         display: none !important;
     }
 
-    form{
-        width: 10% !important;
-    }
 
     form a.l-c-botoes{
         margin-left:10px;
@@ -276,6 +282,12 @@ footer{
     header #menu li{
         margin-right:0em !important;
         min-width: 40px;
+    }
+
+    header form{
+        float: left !important;
+        padding:8px;
+        text-align: center;
     }
 
     header #menu{
@@ -316,6 +328,29 @@ footer{
 }
 
 @media (max-width:690px){
+    main article#um, main article#dois{
+        height: 30em !important;
+    }
+
+    main article#um div{
+        margin-top:35% !important;
+    }
+
+    main article#dois{
+        text-align: center;
+    }
+
+    main article#dois #link{
+        top: 70% !important;
+        left: 31% !important; 
+    }
+
+    main article#dois div#na{
+        position: static;
+        margin-top:31%;
+
+    }
+
     header form{
         display: none !important;
     }
@@ -334,6 +369,8 @@ footer{
     header #menu li#logo{
         width:100%;
         margin: auto;
+        padding:0;
+        padding-top: 10px;
     }
 
     header #menu li#logo #logo{
@@ -343,11 +380,13 @@ footer{
     }
 
     header nav{
+        display: block !important;
         text-align: center;
         font-size: 1.08em;
     }
 
     header nav a{
-        padding:0px 10px 
+        padding:0px 5px;
+        margin-right:1.1em;
     }
 }
