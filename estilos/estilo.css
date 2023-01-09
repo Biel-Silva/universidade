@@ -423,8 +423,6 @@ footer{
         width: 40px;
     }
 
-    
-
     main .texto .beneficios img{
         width:60px
     }
@@ -437,5 +435,14 @@ footer{
 
     main article#dois #link {
         left: 20% !important;
+    }
+
+    footer{
+        padding:5px;
+        font-size: 10px;
+    }
+
+    footer p#cad{
+        margin-top:5px !important;
     }
 }
