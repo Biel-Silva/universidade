@@ -18,8 +18,19 @@
     width:0;
 }
 
-body, html{
+html {
     height: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer{
+    margin-top:auto;
 }
 
 *{
@@ -263,9 +274,8 @@ footer{
 }
 
 #contato fieldset textarea{
-    width: 402px;
-    height: 204px;
-    margin-bottom:10%;
+    width: 302px;
+    height: 150px;
 }
 
 /*Fim da aba "contato"*/
@@ -278,7 +288,14 @@ footer{
     width:80%;
     margin:auto;
     margin-bottom:10%;
+    border: 0px solid ;
 }
+
+#login-main #form-log fieldset{
+    border: 0;
+}
+
+#login-main #form-log fieldset 
 
 
 /*Medias*/
@@ -350,6 +367,10 @@ footer{
 }
 
 @media (max-width:690px){
+    #cad{
+        display: block !important;
+    }
+
     #new-log{
         display: block;
     }
@@ -430,7 +451,6 @@ footer{
     textarea#ioq{
         width: 317px !important;
         height: 173px !important;
-        margin-bottom: 23% !important;
     } 
 }
 
